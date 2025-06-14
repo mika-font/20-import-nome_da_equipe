@@ -60,28 +60,14 @@ sudo apt install python3-pip python3-venv
     cd 20-import-nome_da_equipe
     ```
 
-4. Crie e ative um ambiente virtual:
+4. **Execute o programa:**
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate
+    ./atualizar_dataset.sh # criar os dois arquivos do modelo da mão (só precisa abrir uma vez)
     ```
 
-5. Instale as dependências:
-    ```bash
-    pip install -r requirements.txt
-    ```
-    > Caso não exista o arquivo `requirements.txt`, instale manualmente:
-    ```bash
-    pip install tensorflow opencv-python mediapipe numpy scikit-learn pillow
-    ```
-
-6. **Execute o programa:**
+5. **Após isso, execute o programa:**
     ```bash
     ./run.sh
-    ```
-    > Ou, se não houver o script, rode diretamente:
-    ```bash
-    python interface_libras.py
     ```
 
 **Ambiente Windows 11**
