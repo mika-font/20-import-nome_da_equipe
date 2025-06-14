@@ -2,36 +2,121 @@
 
 ---
 
-### Membros da Equipe: 
-Evandro Luz Dorneles - <br>
-Franchesco Parnoff Cagliari - <br>
-Gabriel Lorenson Schirmer - <br>
-Kauê Fucherberger Bonfá - <br>
-Mikael Fontoura do Nascimento - <br>
+### *Membros da Equipe:* 
 
-### Tema / Área do problema: 
-Inteligência Artificial Aplicada à ...
+* **Evandro Luz Dorneles** - Dataset e Treinamento
+* **Franchesco Parnoff Cagliari** - Interface
+* **Gabriel Lorenson Schirmer** - Integração Câmera/Interface
+* **Kauê Fucherberger Bonfá** - Dataset e Treinamento
+* **Mikael Fontoura do Nascimento** - Modelo de Negócios, Organização e Interface
 
-### Solução:
+---
 
-### Tecnologias:
+### *Tema / Área do problema:*
 
-### Instruções de Instalação
+Inteligência Artificial Aplicada à Interpretação de Libras para Acessibilidade e Inclusão.
 
-Pré-requisitos:
+---
 
-Antes de começar, certifique-se de que você tem o Python 3 e o gerenciador de pacotes pip instalados no seu sistema Linux. Em distribuições baseadas em Debian/Ubuntu, você pode precisar instalar o módulo venv:
+### *Solução:*
 
+**Libr.IA** é uma aplicação desktop integrada à IA para leitura e interpretação de linguagem de sinais, traduzindo em tempo real os gestos da Libras utilizando a câmera do computador e imprimindo o texto na tela da interface.
+
+---
+
+### *Tecnologias:*
+
+* **Python** — Linguagem principal para desenvolvimento dos algoritmos de IA, processamento de vídeo e lógica da aplicação.
+* **TensorFlow / Keras** — Frameworks para construção, treinamento e inferência de modelos de Machine Learning/Deep Learning.
+* **OpenCV (cv2)** — Manipulação de imagens e vídeo, acesso à câmera e pré-processamento de frames.
+* **Tkinter / PIL** — Interface gráfica simples e funcional.
+* **NumPy** — Operações numéricas de alta performance.
+* **Scikit-learn** — Aprendizado de máquina.
+
+---
+
+### **Instruções de Instalação:** 
+
+Para instalar o programa no computador é necessário seguir as seguintes etapas:
+
+**Ambiente Linux**
+
+1. Acesse o terminal e atualize os pacotes do Linux:
+
+```bash
+sudo apt upgrade
 sudo apt update
+```
+
+2. Instale os pacotes do python:
+
+```bash
 sudo apt install python3-pip python3-venv
+```
 
-Após isso, para rodar o programa, execute o ./run.sh
+3. Clone o repositório e acesse a pasta do projeto:
+    ```bash
+    git clone https://github.com/mika-font/20-import-nome_da_equipe.git
+    cd 20-import-nome_da_equipe
+    ```
 
+4. Crie e ative um ambiente virtual:
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
-▪ Integrantes da equipe com nome completo e função no projeto.
-▪ Tema / área do problema
-▪ O problema a ser resolvido
-▪ Descrição da solução proposta.
-▪ Tecnologias utilizadas (linguagens de programação, bancos de
-dados, frameworks, scripts, etc).
-▪ Instruções de instalação e execução.
+5. Instale as dependências:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    > Caso não exista o arquivo `requirements.txt`, instale manualmente:
+    ```bash
+    pip install tensorflow opencv-python mediapipe numpy scikit-learn pillow
+    ```
+
+6. **Execute o programa:**
+    ```bash
+    ./run.sh
+    ```
+    > Ou, se não houver o script, rode diretamente:
+    ```bash
+    python interface_libras.py
+    ```
+
+**Ambiente Windows 11**
+
+1. Instale o Python:
+    - Baixe e instale pelo site oficial: https://www.python.org/downloads/
+    - Ou pelo terminal (PowerShell):
+        ```powershell
+        winget install Python.Python.3
+        ```
+
+2. Clone o repositório e acesse a pasta do projeto:
+    ```powershell
+    git clone https://github.com/mika-font/20-import-nome_da_equipe.git
+    cd 20-import-nome_da_equipe
+    ```
+
+3. Crie e ative um ambiente virtual:
+    ```powershell
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+
+4. Instale as dependências:
+    ```powershell
+    pip install -r requirements.txt
+    ```
+    > Caso não exista o arquivo `requirements.txt`, instale manualmente:
+    ```powershell
+    pip install tensorflow opencv-python mediapipe numpy scikit-learn pillow
+    ```
+
+5. Execute o programa:
+    ```powershell
+    python interface_libras.py
+    ```
+
+---
