@@ -1,7 +1,0 @@
-Pré-requisitos:
-
-Antes de começar, certifique-se de que você tem o Python 3 e o gerenciador de pacotes pip instalados no seu sistema Linux. Em distribuições baseadas em Debian/Ubuntu, você pode precisar instalar o módulo venv:
-Bash
-
-sudo apt update
-sudo apt install python3-pip python3-venv

@@ -3,21 +3,30 @@
 ---
 
 ### Membros da Equipe: 
-
-Evandro Luz Dorneles - Dataset e Treinamento
-Franchesco Parnoff Cagliari - Interface
-Gabriel Lorenson Schirmer - Integração câmera/interface
-Kauê Fucherberger Bonfá - Dataset e Treinamento
-Mikael Fontoura do Nascimento - Modelo de Negócios, Organização e Teste
+Evandro Luz Dorneles - <br>
+Franchesco Parnoff Cagliari - <br>
+Gabriel Lorenson Schirmer - <br>
+Kauê Fucherberger Bonfá - <br>
+Mikael Fontoura do Nascimento - <br>
 
 ### Tema / Área do problema: 
-Inteligência Artificial Aplicada à Interpretação de Libras
+Inteligência Artificial Aplicada à ...
 
 ### Solução:
 
 ### Tecnologias:
 
 ### Instruções de Instalação
+
+Pré-requisitos:
+
+Antes de começar, certifique-se de que você tem o Python 3 e o gerenciador de pacotes pip instalados no seu sistema Linux. Em distribuições baseadas em Debian/Ubuntu, você pode precisar instalar o módulo venv:
+
+sudo apt update
+sudo apt install python3-pip python3-venv
+
+Após isso, para rodar o programa, execute o ./run.sh
+
 
 ▪ Integrantes da equipe com nome completo e função no projeto.
 ▪ Tema / área do problema
