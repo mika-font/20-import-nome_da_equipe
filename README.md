@@ -3,14 +3,15 @@
 ---
 
 ### Membros da Equipe: 
-Evandro Luz Dorneles - <br>
-Franchesco Parnoff Cagliari - <br>
-Gabriel Lorenson Schirmer - <br>
-Kauê Fucherberger Bonfá - <br>
-Mikael Fontoura do Nascimento - <br>
+
+Evandro Luz Dorneles - Dataset e Treinamento
+Franchesco Parnoff Cagliari - Interface
+Gabriel Lorenson Schirmer - Integração câmera/interface
+Kauê Fucherberger Bonfá - Dataset e Treinamento
+Mikael Fontoura do Nascimento - Modelo de Negócios, Organização e Teste
 
 ### Tema / Área do problema: 
-Inteligência Artificial Aplicada à ...
+Inteligência Artificial Aplicada à Interpretação de Libras
 
 ### Solução:
 
