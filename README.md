@@ -102,7 +102,7 @@ sudo apt install python3-pip python3-venv
 
 5. Execute o programa:
     ```powershell
-    python interface_libras.py
+    python main.py
     ```
 
 ---
