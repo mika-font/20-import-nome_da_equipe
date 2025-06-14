@@ -7,7 +7,7 @@
 PYTHON_CMD="python3"
 VENV_DIR=".venv"
 REQ_FILE="requirements.txt"
-MAIN_SCRIPT="predicao.py"
+MAIN_SCRIPT="main.py"
 
 # Cores para o terminal
 GREEN='\033[0;32m'
